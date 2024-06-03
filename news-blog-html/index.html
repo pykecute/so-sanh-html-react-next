@@ -3,17 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Blog - Html</title>
+    <title>News Blog - Trang chủ</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>News Blog</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="domestic.html">Tin trong nước</a></li>
+                <li><a href="international.html">Tin ngoài nước</a></li>
+                <li><a href="sports.html">Tin thể thao</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <article id="news-article">
-            <div id="news-cards"></div>
-        </article>
+        <section class="news-section">
+            <h2>Tin trong nước</h2>
+            <div class="news-cards" id="domestic-news-cards"></div>
+        </section>
+
+        <section class="news-section">
+            <h2>Tin ngoài nước</h2>
+            <div class="news-cards" id="international-news-cards"></div>
+        </section>
+
+        <section class="news-section">
+            <h2>Tin thể thao</h2>
+            <div class="news-cards" id="sports-news-cards"></div>
+        </section>
     </main>
     <footer>
         <p>&copy; 2024 News Blog</p>
